@@ -1,1 +1,11 @@
-# Write your solution here
+# .lib/if_else_end.rb
+
+current_time = Time.now
+
+if current_time %2 == 0
+  puts "Even!"
+else 
+  puts "Odd!"
+end
+
+  
